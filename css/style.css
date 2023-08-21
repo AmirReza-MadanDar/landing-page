@@ -12,6 +12,9 @@
 body {
   font-family: "Vazir" !important;
 }
+a {
+  text-decoration: none;
+}
 .h1,
 .h2,
 .h3,
@@ -91,4 +94,97 @@ h6 {
 .features i {
   font-size: 48px;
   color: #4154f1;
+}
+/* Services */
+.services .services-box {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  padding: 60px 30px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.services .services-box .icone {
+  font-size: 36px;
+  padding: 20px;
+  display: inline-block;
+  line-height: 0;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.services .services-box .reade-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.services .services-box .reade-more i {
+  font-size: 18px;
+  line-height: 0 !important;
+  margin-right: 0.4rem;
+}
+/* Services Blue */
+.services .services-box.blue {
+  border-bottom: 3px solid #2db6fa;
+}
+.services .services-box.blue .icone {
+  background-color: #dbf3fe;
+  color: #2db6fa;
+}
+.services .services-box.blue .reade-more {
+  color: #2db6fa;
+}
+.services .services-box.blue:hover {
+  background-color: #2db6fa;
+  color: #fff;
+}
+
+/*Services Orange  */
+.services .services-box.orange {
+  border-bottom: 3px solid #f68c09;
+}
+.services .services-box.orange .icone {
+  background-color: #fde3c4;
+  color: #f68c09;
+}
+.services .services-box.orange .reade-more {
+  color: #f68c09;
+}
+.services .services-box.orange:hover {
+  background-color: #f68c09;
+  color: #fff;
+}
+
+/*Services green  */
+.services .services-box.green {
+  border-bottom: 3px solid #08da4e;
+}
+.services .services-box.green .icone {
+  background-color: #cffddf;
+  color: #08da4e;
+}
+.services .services-box.green .reade-more {
+  color: #08da4e;
+}
+.services .services-box.green:hover {
+  background-color: #08da4e;
+  color: #fff;
+}
+
+.services .services-box:hover .reade-more {
+  color: #fff;
+}
+.services .services-box:hover .icone {
+  background-color: #fff;
 }

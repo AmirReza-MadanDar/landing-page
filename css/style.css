@@ -87,3 +87,8 @@ h6 {
 .cuntes i.red {
   color: #bb0852;
 }
+/* Features */
+.features i {
+  font-size: 48px;
+  color: #4154f1;
+}

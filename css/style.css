@@ -205,3 +205,19 @@ h6 {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
+/* Cntact */
+
+.contact .info-box {
+  background-color: #fafbff;
+  padding: 30px;
+}
+.contact .info-box i {
+  color: #4154f1;
+  line-height: 0;
+  font-size: 38px;
+}
+.contact .contact-form {
+  background-color: #fafbff;
+  padding: 30px;
+  height: 100%;
+}
